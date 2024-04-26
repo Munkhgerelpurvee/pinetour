@@ -272,9 +272,9 @@ a {
 /*  Mobile -- Media query */
 
 @media screen and (max-width: 600px) {
-    body {
+    /* body {
         background-color: #16A94A;
-    }
+    } */
     
     .hero-section-images {
        flex-wrap: wrap;
@@ -325,9 +325,9 @@ a {
 }
 
 @media screen and (min-width: 601px) and (max-width: 1028px) {
-    body {
+    /* body {
         background-color: orange;
-    }
+    } */
     .hero-section-images {
         flex-wrap: wrap;
     }
@@ -366,7 +366,7 @@ a {
     } */
 
     .pricing-cards {
-        /* flex-direction: column; */
+        flex-direction: column;
         /* flex-wrap: wrap; */
 
     }
